@@ -1,0 +1,116 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+.navbar-brand{
+font-family: 'Goldman', cursive;
+font-size: 25px;
+}
+
+.navbar{
+	font-family: 'Goldman', cursive;
+}
+
+#new_arrivals p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+}
+
+#model p, #model ul{
+	font-family: 'Martel', serif;
+}
+
+#book .lead{
+	font-family: 'Kaushan Script', cursive;
+}
+
+#price p{
+	font-family: 'Kaushan Script', cursive;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section #price {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+#price .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+#contact p{
+	font-family: 'Lusitana', serif;
+}
+
+#price hr {
+  margin: 1.5rem 0;
+}
+
+#price .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+#price .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#price .card-price .period {
+  font-size: 0.8rem;
+}
+
+#price ul li {
+  margin-bottom: 1rem;
+}
+
+#price .text-muted {
+  opacity: 0.7;
+}
+
+#price .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  #price .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  #price .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+#contact{
+	background-color: black;
+	color: white;
+}
